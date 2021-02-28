@@ -1,0 +1,40 @@
+img{
+	width:100%;
+
+	
+
+}
+body{
+	background-color:rgb(64,200,85);           
+	padding-color:orange;
+	padding-right: 12px;
+
+}
+
+
+h1{
+	font-size:cursive;
+	text-align:center;
+
+
+}	
+p{ font-family: monospace;
+	font-size: cursive;
+	color: rgb(82,98,83);
+	margin: left:100px;
+	
+
+}
+a{
+
+	
+
+}
+div{width: 50%;
+	margin-left:25%;
+	border:3px groove color;
+	border-radius:10px;
+	
+	
+}
+	
