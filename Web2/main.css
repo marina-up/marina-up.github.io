@@ -1,5 +1,5 @@
 .navigation{
-	border: 5.5px solid black;
+	
 	display: flex;
 	justify-content:space-between;
 	height: 120px;
@@ -10,14 +10,15 @@
 
 
 
+
 }
 .LOGO{
-	border: 5px solid red;
+	
 	margin-left: 100px;
 	align-self: center;
 }
 .nav-links{
-	border: 5px solid green;
+	
 	margin-right: 100px;
 
 }
