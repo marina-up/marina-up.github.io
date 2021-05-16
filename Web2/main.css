@@ -66,31 +66,52 @@
 	background-color:rgba(0,0,0,0.6);
 	width: 100%;
 	height: 100%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
 	
+}
+.header-content{
+	color: white;
+	text-align:center;
+
+}
+.left-btn{
+	width: 200px;
+	height:60px;
+	border: 2px solid white;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+.right-btn{
+	width: 200px;
+	height:60px;
 }
 
 .div{
-font-family: monospace;
+	font-family: monospace;
 
 }
 
-.one{
+.about{
 	text-align: center;
-	padding: 100px 0;
 
 }
-.two{
-	font-size: 1.4rem;
-	font-weight: 400px;
-	max-width: 700px;
-	margin: auto;
+.about-top{
+	margin-bottom: 50px;
+	
 }
-.three{
+.about-bot{
 	display: flex;
-	justify-content: center;
-	max-width: 1200px;
-	margin: auto;
+	justify-content:space-around;
+
+
 }
+.about-item{
+	width: 25%;
+	
+	}
 
 
 /* КОНЕЦ*/
