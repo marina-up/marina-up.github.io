@@ -1,4 +1,25 @@
 /*навигация сайта начало*/
+body{
+	margin:0px;
+}
+@keyframes iliketomoveit {
+	0%   {margin:  0px;} 
+	25%  {margin-left:  15px; background: pink;} 
+	75%  {margin-top:  20px;} 
+	100% {margin:  0px; background: green;} 
+	} 
+	.light1{
+		border: 1px solid black;
+		animation: iliketomoveit 2.5s linear infinite;
+		height: 15px;
+		width: 12px;
+		display: flex;
+		border-radius: 100%;
+
+
+
+	}
+
 .navigation{
 	
 	display: flex;
@@ -7,6 +28,11 @@
 	align-items: center;
 	font-family: 'RocknRoll One', sans-serif;
 	font-size: 25px;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	margin-top: 0px;
+	box-shadow: 20px 10px 10px black;
 
 
 
@@ -17,11 +43,15 @@
 .LOGO{
 	
 	margin-left: 100px;
-	align-self: center;
+	align-self: center; 
+	display: flex;
+
+	
 }
 .nav-links{
 	
 	margin-right: 100px;
+
 
 }
 .nav-links > a{
@@ -136,8 +166,22 @@
 	width: 25%;
 	
 	}
+	@keyframes myAnima
+	{
+		0%{
+			background-color: rgba(34,139,34);
+		}
+		50%{
+			background-color: rgba(0,255,127);
+		}
+		100%{
+			background-color: rgba(152,251,152);
+		}
+	}
 	.str2{
 		background-color: rgb(185, 245, 226);
+		animation: myAnima 5s linear infinite;
+
 	}
 	.str2-top{
 		padding-top: 50px;
@@ -160,7 +204,15 @@
 		text-align: center;
 		background-color: rgba(131, 212, 183);
 		font-size: large;
-	
+		padding: 5px;
+
+		}
+	.str2-item:hover{
+		box-shadow: 15px 0 10px 0 rgba(0,0,0,0.2);
+		width: 25%;
+		background-color: rgba(220,220,220);
+		margin: 7px;
+		transition: 0.5s;
 
 	}
 
