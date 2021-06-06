@@ -6,7 +6,7 @@ body{
 	0%   {margin:  0px;} 
 	25%  {margin-left:  15px; background: pink;} 
 	75%  {margin-top:  20px;} 
-	100% {margin:  0px; background: green;} 
+	100% {margin:  0px; background: purple;} 
 	} 
 	.light1{
 		border: 1px solid black;
@@ -15,10 +15,25 @@ body{
 		width: 12px;
 		display: flex;
 		border-radius: 100%;
+		}
+		.light2{
+		border: 1px solid black;
+		animation: iliketomoveit 1.5s linear infinite;
+		height: 15px;
+		width: 12px;
+		display: flex;
+		border-radius: 100%;
+		}
+		.light3{
+		border: 1px solid black;
+		animation: iliketomoveit 1s linear infinite;
+		height: 15px;
+		width: 12px;
+		display: flex;
+		border-radius: 100%;
+		}
 
 
-
-	}
 
 .navigation{
 	
@@ -28,11 +43,13 @@ body{
 	align-items: center;
 	font-family: 'RocknRoll One', sans-serif;
 	font-size: 25px;
-	position: fixed;
+	/*position: fixed;*/
 	background-color: white;
+	z-index: 1;
 	width: 100%;
 	margin-top: 0px;
-	box-shadow: 20px 10px 10px black;
+	box-shadow: 10px 5px 5px black;
+	font-size: 20px;
 
 
 
@@ -77,7 +94,7 @@ body{
 	width: 100%;
 	height: 600PX;
 	background-size: 100%;
-	background-image: url(img/2.jpg);
+	background-image: url(img/5.jpg);
 	border-radius: 5px;
 	background-position: center;
 	transition: 2s;
@@ -141,15 +158,19 @@ body{
 	font-size:large;
 	border: none;
 	transition: 2s;
+	border: 3PX solid pink;
+
 	}
 
 .div{
 	font-family: monospace;
+	font-size: 20px;
 
 }
 
 .about{
 	text-align: center;
+	font-size: 20px;
 
 }
 .about-top{
@@ -162,6 +183,9 @@ body{
 
 
 }
+img{
+	width: 100%;
+}
 .about-item{
 	width: 25%;
 	
@@ -169,24 +193,30 @@ body{
 	@keyframes myAnima
 	{
 		0%{
-			background-color: rgba(34,139,34);
+			background-color: rgba(229, 161, 186);
 		}
-		50%{
-			background-color: rgba(0,255,127);
+		30%{
+			background-color: rgba(255, 207, 224);
+		}
+		60%{
+			background-color: rgba(252,192,214);}
+		90%{
+			background-color: rgba(255, 163, 197);
 		}
 		100%{
-			background-color: rgba(152,251,152);
+			background-color: rgba(229, 161, 186);
 		}
-	}
+		}
 	.str2{
-		background-color: rgb(185, 245, 226);
-		animation: myAnima 5s linear infinite;
+		background-color: rgb(255, 166, 198);
+		animation: myAnima 10s linear infinite;
 
 	}
 	.str2-top{
 		padding-top: 50px;
 		text-align: center;
 		padding-bottom: 50p;
+		font-size: 20px;
 	}
 	.str2-bot{
 		
@@ -200,17 +230,18 @@ body{
 	.str2-item{
 		
 		width: 25%;
-		margin: 7PX;
+		margin: 7px;
 		text-align: center;
-		background-color: rgba(131, 212, 183);
+		background-color: rgba(255, 235, 242);
 		font-size: large;
-		padding: 5px;
+		padding: 15px;
+
 
 		}
 	.str2-item:hover{
 		box-shadow: 15px 0 10px 0 rgba(0,0,0,0.2);
 		width: 25%;
-		background-color: rgba(220,220,220);
+		background-color: rgba(255, 250, 252);
 		margin: 7px;
 		transition: 0.5s;
 

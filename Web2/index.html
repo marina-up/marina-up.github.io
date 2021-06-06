@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>LOGO</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" >
 </head>
 <body>
+	<script>
+  AOS.init();
+</script>
 	<div class="navigation">
 		<div class="LOGO">
 		<div class="light1"></div>
-		<div class="light1"></div>
-		<div class="light1"></div>
+		<div class="light2"></div>
+		<div class="light3"></div>
 		<div class="light1"></div>
 		</div>
 
 		<div class="nav-links">
 			<a href="">Home</a>
-			<a href="">About</a>
-			<a href="">Servicing</a>
+			<a href="#History">История</a>
+			<a href="#Fakt">Факты</a>
 			<a href="">Portfolio</a>
 			<a href="">Contact</a>
 		</div>
@@ -26,81 +31,96 @@
 	<div class="header">
 		<div class="header-blackout">
 			<div class="header-content">
-				<h1> Excepteur sint occaecat cupidatat </h1>
+				<h1> Клубника – «королева» всех ягод и как у каждой королевы у неё много секретов.</h1>
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p>В Бельгийском городе Вепион находится музей клубники.
 				</p>
-				<button class="left-btn">left</button>
-				<button class="right-btn">right</button>
+				<button class="left-btn">Клубника</button>
+				<button class="right-btn">Клубника</button>
 				
 			</div>
 		</div>
 	</div>
 	<main class="div"> 
+		<a name="History"></a>
 		<div class="about">
 			<div class="about-top">
-				<h1>About us</h1>
+				<h1>История</h1>
 		
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque repellendus minus earum at quisquam accusamus. Velit accusamus iusto vero eveniet cupiditate laboriosam, tempore voluptates! Odit.
+				<p>Считается, что клубника росла в европейских лесах еще в эпоху неолита. Достоверно известно, что эту ягоду хорошо знали и использовали в качестве десерта в эпоху античности. Об этом говорят письменные источники. Уже окультуренное растение впервые стало известно в 15 веке, впервые оно появилось во Франции, где начало активно выращиваться. Именно оттуда клубника начала распространяться по всей Европе. 
 				</p>
 			</div>
 			<div class="about-bot">
-				<div class="about-item">
-					<img src="img/12.png">
-		 			<h2>Awesome icons</h2>
-         			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laboriosam aspernatur, atque sed eligendi voluptatibus sint distinctio consequuntur excepturi tempore.
+				<div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" class="about-item">
+					<img src="img/1.png">
+		 			<h2>Польза</h2>
+         			<p>Чтобы получить максимальную пользу от этой вкусной  ягоды, рекомендуется смешивать ее с молочными продуктами, так как они дополняют не только  вкус, но и полезные свойства клубники.  Рецептов с клубникой  
+
          			</p>
          		</div>
 
-           		<div class="about-item">
-           			<img src="img/13.png">
-           			<h2>One page</h2>
-           			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laboriosam aspernatur, atque sed eligendi voluptatibus sint distinctio consequuntur excepturi tempore</p>
+           		<div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" class="about-item">
+           			<img src="img/7.jpg">
+           			<h2>Вред</h2>
+           			<p>Для чувствительных зубов клубника может нанести вред, так как содержит щавелевую кислоту, которая способна спровоцировать обострение кариеса</p>
            		</div> 
-           		<div class="about-item">
-           			<img src="img/10.png">
+           		<div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" class="about-item">
+           			<img src="img/4.png">
 
-           			<h2>Fully responsive</h2>
-           			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laboriosam aspernatur, atque sed eligendi voluptatibus sint distinctio consequuntur excepturi tempore.</p>
+           			<h2>Калорийность</h2>
+           			<p>41 ккал
+           				<br>
+						Белки
+						0,8 г
+						<br>
+						Жиры
+						0,4 г
+						<br>
+						Углеводы
+						7,5 г</p>
            		</div>
            	</div>
 		</div>
 		<div class="str2">
+			<a name="Fakt"></a>
 			<div class="str2-top">
-				<h2>Our services</h2>
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h2>Факты о клубнике</h2>
+				<p> Такого растения, как «клубника», не существует. На самом деле это земляника некоторых видов, просто очень крупная. Чаще всего то, что называют клубникой, на самом деле является садовой или зелёной земляникой.
 				</p>
 			</div>
 			<div class="str2-bot">
 				<div class="str2-item">
-					<img src="img/10.png">
-					<h3>Research</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor !</p>
+					<img src="img/6.jpg">
+					<h3>200 семечек</h3>
+					<p>В среднем на одной клубничке находится около 200 семечек-орешков.</p>
 				</div>
 				<div class="str2-item">
-					<img src="img/10.png">
-					<h3>Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor !</p>
+					<img src="img/6.jpg">
+					<h3>Урожай клубники</h3>
+					<p>Больше всего в мире клубники производится в США. Только в штате Калифорния ежегодно собирают более миллиарда тонн урожая этой ягоды.</p>
 				</div>
 				<div class="str2-item">
-					<img src="img/10.png">
-					<h3>Mobile</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor !</p>
+					<img src="img/6.jpg">
+					<h3>Крупная ягода</h3>
+					<p>Самая крупная ягода, когда-либо обнаруженная, весила около 250 граммов, а её диаметр достигал почти 30 сантиметров</p>
 				</div>
 				<div class="str2-item">
-					<img src="img/10.png">
-					<h3>Documentation</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor !</p>
+					<img src="img/6.jpg">
+					<h3>Лекарственные свойства</h3>
+					<p>В народной медицине клубнику рекомендуют употреблять при головных болях, так как в неё содержатся в небольших дозах те же вещества, что и в аспирине.</p>
 				</div>
 				<div class="str2-item">
-					<img src="img/10.png">
-					<h3>Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor !</p>
+					<img src="img/6.jpg">
+					<h3>Доля сахара</h3>
+					<p>Несмотря на сладкий вкус, в клубнике содержится меньше сахара, чем в самом кислом лимоне.</p>
 				</div>
 				<div class="str2-item">
-					<img src="img/10.png">
-					<h3>Support</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor !</p>
+					<img src="img/6.jpg">
+					<h3>Белая клубника</h3>
+					<p>В 18-м веке была выведена белая клубника, представлявшая собой гибрид, собственно, клубники и ананаса. К сожалению, до наших дней этот сорт не сохранился</p>
 				</div>
 
 			</div>
